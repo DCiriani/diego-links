@@ -100,16 +100,16 @@
   .cta:hover{border-color:var(--gold-soft);box-shadow:0 0 40px rgba(201,162,75,.15)}
   .cta .target{flex:none;width:92px;height:92px;position:relative;z-index:2}
   .cta .target svg{width:100%;height:100%}
-  .cta .ctxt{position:relative;z-index:2;flex:1}
-  .cta .ctxt .t1{font-family:'Cormorant Garamond',serif;font-weight:600;
-    font-size:40px;line-height:.98;letter-spacing:2px;
+  .cta .ctxt{position:relative;z-index:2;flex:1;text-align:center}
+  .cta .ctxt .t1{font-family:'Cormorant Garamond',serif;font-weight:700;
+    font-size:38px;line-height:1;letter-spacing:.5px;white-space:nowrap;
     background:linear-gradient(180deg,#e7cd8a,#b98f38);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .cta .ctxt .sub{display:flex;align-items:center;gap:8px;margin:8px 0;font-size:11px;
-    letter-spacing:3px;color:var(--gold-soft)}
+  .cta .ctxt .sub{display:flex;align-items:center;gap:8px;margin:9px 0;font-size:10px;
+    letter-spacing:1.2px;color:var(--gold-soft);line-height:1.4}
   .cta .ctxt .sub .ln{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent)}
   .cta .ctxt .pill{display:inline-block;border:1px solid var(--line);border-radius:20px;
-    padding:6px 18px;font-size:12px;letter-spacing:4px;color:var(--cream)}
-  .cta .ctxt .tags{margin-top:10px;font-size:11px;letter-spacing:2px;color:var(--sage-soft)}
+    padding:6px 20px;font-size:11px;letter-spacing:2.4px;color:var(--cream)}
+  .cta .ctxt .tags{margin-top:11px;font-size:11px;letter-spacing:2.5px;color:var(--sage-soft);text-align:center}
 
   @media(max-width:560px){
     .name .l1,.name .l2{font-size:52px}
@@ -121,7 +121,9 @@
     .cards{grid-template-columns:1fr;gap:12px}
     .card p{min-height:auto}
     .cta{flex-direction:column;text-align:center;gap:16px}
-    .cta .ctxt .t1{font-size:34px}
+    .cta .ctxt .t1{font-size:26px;white-space:normal}
+    .cta .ctxt .sub .ln{display:none}
+    .cta .ctxt .sub{font-size:9.5px}
     .cta .ctxt .sub{justify-content:center}
     .monogram{font-size:110px}
   }
@@ -193,10 +195,10 @@
       </svg>
     </div>
     <div class="ctxt">
-      <div class="t1">ANÁLISE<br>PONTO CEGO</div>
-      <div class="sub"><span class="ln"></span>LEITURA PROFUNDA E PERSONALIZADA<span class="ln"></span></div>
-      <span class="pill">EM ATÉ 48 HORAS</span>
-      <div class="tags">COMPREENSÃO • CLAREZA • DIREÇÃO</div>
+      <div class="t1">ANÁLISE PONTO CEGO</div>
+      <div class="sub"><span class="ln"></span>VOCÊ VAI ENXERGAR O QUE REPETE E SAIR COM O QUE FAZER<span class="ln"></span></div>
+      <span class="pill">SEU DIRECIONAMENTO EM ATÉ 48H</span>
+      <div class="tags">ENXERGAR • ENTENDER • MUDAR</div>
     </div>
   </a>
 
